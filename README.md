@@ -41,3 +41,11 @@
 - Data: SMS Spam/Non-spam data
 - Embedding: (빈도 상위 300개 단어) + (Chi-square (카이제곱) score가 높은 상위 200개 단어) = 500차원 임베딩
 - Model: SVM (Binary Classification)
+
+
+
+-------------------------------------------------
+### 6. CRFs 기반 자동 띄어쓰기 성능 향상
+- Data: SMS Spam/Non-spam data
+- Preprocessing: (previous, current, next) 음절로 feature extraction해 CRFs에  
+- Model: CRFs 
