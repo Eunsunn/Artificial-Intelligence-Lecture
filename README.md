@@ -52,7 +52,15 @@
 
 
 -------------------------------------------------
-### 7. ANN 구현과 MNIST Classification
+### 7. ANN을 이용한 MNIST Classification
 - Data: MNIST
 - Model: 3-layer, 5-layer, 10-layer ANN
 - sigmoid activation function을 사용한 ANN 모델. Layer가 깊어질 수록 Gradient Vanishing이 발생해 모델 성능이 낮아짐
+
+
+-------------------------------------------------
+### 8. TextCNN을 이용한 질문 유형 Classification
+- Data: 자연어 문장, 질문 유형 label (거리, 무엇, 방법, 사람, 시, 약어, 양(수사), 양(통화), 이유, 지역)
+- Model: TextCNN - (word_embedding, pos_onehot_encoding)과 (word_embedding, pos_embedding)을 사용하는 경우 비교 
+<img src="https://user-images.githubusercontent.com/46714683/103270178-bad36580-49fa-11eb-8581-83aba64181da.png" width="600" height="700">
+
