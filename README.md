@@ -55,4 +55,4 @@
 ### 7. ANN 구현과 MNIST Classification
 - Data: MNIST
 - Model: 3-layer, 5-layer, 10-layer ANN
-- sigmoid activation function을 사용한 ANN 모델. Layer가 깊어질 수록 Gradient Vanishing이 발생해 모델 성능이 낮아졌음.
+- sigmoid activation function을 사용한 ANN 모델. Layer가 깊어질 수록 Gradient Vanishing이 발생해 모델 성능이 낮아짐
