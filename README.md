@@ -60,7 +60,14 @@
 
 -------------------------------------------------
 ### 8. TextCNN을 이용한 질문 유형 Classification
-- Data: 자연어 문장, 질문 유형 label (거리, 무엇, 방법, 사람, 시, 약어, 양(수사), 양(통화), 이유, 지역)
+- Data: 한국어 자연어 문장, 질문 유형 label (거리, 무엇, 방법, 사람, 시, 약어, 양(수사), 양(통화), 이유, 지역)
 - Model: TextCNN - (word_embedding, pos_onehot_encoding)과 (word_embedding, pos_embedding)을 사용하는 경우 비교 
 <img src="https://user-images.githubusercontent.com/46714683/103270178-bad36580-49fa-11eb-8581-83aba64181da.png" width="600" height="700">
+
+
+-------------------------------------------------
+### 9. Bidirectional Seq2Seq을 이용한 챗봇 개발
+- Data: 한국어 자연어 문장
+- Model: 2-layer Seq2Seq에 input embedding vector의 residual connection을 적용해 성능 향상
+
 
